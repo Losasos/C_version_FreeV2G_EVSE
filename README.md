@@ -1,10 +1,10 @@
 # C_version_FreeV2G_EVSE
 This is a V2G aplication for WhiteBeet EVSE side
 The application was translated from FreeV2G python Demo application (https://github.com/Sevenstax/FreeV2G) to C-code by CODICO GmbH (plc@codico.com)
-
+#
 This code is meant to be used as a template for quick start with WHITE-BEET-EI evaluation board or module on Windows (incl. Windows 11) using Ethernet interface.
 The application uses NPCAP driver for low level access to Ethernet interface (NIC) on L2 OSI level.
-
+#
 The WHITE-BEET-EI control application (EVSE side) application could be run with or without parameters.
 When run with parameters, please consider a fix order of parameters
     <iface> - Ethernet interface PCAP index (given by PCAP library)
